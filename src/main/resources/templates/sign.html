@@ -1,0 +1,16 @@
+{{> header }}
+<h1>Sign Up</h1>
+
+<form action="/sign" method="post">
+    <label>Id : <input type="text" placeholder="아이디를 입력해주세요" name="id"></label>
+    <br>
+    <label>Password : <input type="password" placeholder="비밀번호를 입력해주세요" name="password"></label>
+    <br>
+    <label>Password Confirm : <input type="password" placeholder="한번 더 입력해주세요" name="password-confirm"></label>
+    <br>
+    <input type="submit" value="가입">
+    <input type="reset" value="초기화">
+
+</form>
+
+{{> footer}}
